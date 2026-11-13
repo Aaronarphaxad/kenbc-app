@@ -1,14 +1,14 @@
-import Link from "next/link"
+import Link from "next/link";
 
-import { BrandMark } from "@/components/brand-mark"
-import { Button } from "@/components/ui/button"
+import { BrandMark } from "@/components/brand-mark";
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
+} from "@/components/ui/card";
 
 export default function HomePage() {
   return (
@@ -18,12 +18,12 @@ export default function HomePage() {
           <BrandMark />
           <div className="flex flex-col gap-2">
             <h1 className="text-3xl font-semibold tracking-tight">
-              Immediate Bereavement Fund
+              Bereavement Fund
             </h1>
             <p className="max-w-xl text-muted-foreground">
               One ledger for membership, payments and bereavement cases. This
-              preview runs on sample records so the office and members can
-              walk through it before a live system is built.
+              preview runs on sample records so the office and members can walk
+              through it before a live system is built.
             </p>
           </div>
         </div>
@@ -32,11 +32,15 @@ export default function HomePage() {
             <CardHeader>
               <CardTitle>Administrator</CardTitle>
               <CardDescription>
-                Approve payments, keep the ledger, run cases and follow up arrears.
+                Approve payments, keep the ledger, run cases and follow up
+                arrears.
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <Button nativeButton={false} render={<Link href="/login?role=admin" />}>
+              <Button
+                nativeButton={false}
+                render={<Link href="/login?role=admin" />}
+              >
                 Administrator sign in
               </Button>
             </CardContent>
@@ -61,5 +65,5 @@ export default function HomePage() {
         </div>
       </div>
     </main>
-  )
+  );
 }
