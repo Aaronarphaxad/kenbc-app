@@ -272,7 +272,7 @@ function PayForm({ row }: { row: MemberRow }) {
                     </FieldLabel>
                   ))}
                 </RadioGroup>
-                <p className="rounded-lg border bg-muted/40 p-3 text-sm text-muted-foreground">
+                <p className="rounded-xs border bg-muted/40 p-3 text-sm text-muted-foreground">
                   {instructions[method]}
                 </p>
                 <div className="grid gap-4 sm:grid-cols-2">
@@ -341,7 +341,7 @@ function PayForm({ row }: { row: MemberRow }) {
               changes when it is approved.
             </DialogDescription>
           </DialogHeader>
-          <dl className="flex flex-col gap-2 rounded-lg border bg-muted/40 p-3">
+          <dl className="flex flex-col gap-2 rounded-xs border bg-muted/40 p-3">
             <Detail label="Amount">{formatCad(amount)}</Detail>
             <Detail label="Method">{methodLabels[method]}</Detail>
             {reference.trim() ? (

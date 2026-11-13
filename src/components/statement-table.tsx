@@ -162,7 +162,7 @@ export function StatementTable({
 
       <div
         className={cn(
-          "overflow-hidden rounded-lg border bg-card",
+          "overflow-hidden rounded-xs border bg-card",
           !admin && "hidden md:block print:block"
         )}
       >
@@ -339,7 +339,7 @@ export function StatementTable({
       </div>
 
       {admin ? null : (
-        <ul className="flex flex-col divide-y rounded-lg border bg-card md:hidden print:hidden">
+        <ul className="flex flex-col divide-y rounded-xs border bg-card md:hidden print:hidden">
           <li className="flex items-center justify-between gap-3 bg-muted/50 px-4 py-3 text-sm font-medium">
             <span>Balance today</span>
             <span className="tabular-nums">{formatCad(statement.closing)}</span>

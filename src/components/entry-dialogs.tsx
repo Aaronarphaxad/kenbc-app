@@ -82,7 +82,7 @@ function ReverseForm({
           opposite line dated today, and links the two.
         </DialogDescription>
       </DialogHeader>
-      <dl className="flex flex-col gap-2 rounded-lg border bg-muted/40 p-3">
+      <dl className="flex flex-col gap-2 rounded-xs border bg-muted/40 p-3">
         <Detail label="Member">{memberName(state, entry.memberId)}</Detail>
         <Detail label="Entry">
           {describeEntry(entry)}, {formatDate(entry.effectiveOn)}

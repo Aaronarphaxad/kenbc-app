@@ -214,7 +214,7 @@ export default function MemberRecordPage() {
 
         <TabsContent value="payments" className="pt-2">
           {payments.length ? (
-            <div className="overflow-hidden rounded-lg border bg-card">
+            <div className="overflow-hidden rounded-xs border bg-card">
               <Table>
                 <TableHeader className="bg-muted/50">
                   <TableRow>
@@ -279,7 +279,7 @@ export default function MemberRecordPage() {
 
         <TabsContent value="cases" className="pt-2">
           {cases.length ? (
-            <ul className="flex flex-col divide-y rounded-lg border bg-card">
+            <ul className="flex flex-col divide-y rounded-xs border bg-card">
               {cases.map((item) => (
                 <li key={item.id}>
                   <Link

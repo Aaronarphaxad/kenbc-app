@@ -130,7 +130,7 @@ export default function AdminHomePage() {
         </CardHeader>
         <CardContent>
           {tasks.length ? (
-            <ul className="flex flex-col divide-y rounded-lg border">
+            <ul className="flex flex-col divide-y rounded-xs border">
               {tasks.map((task) => (
                 <li key={task.title}>
                   <Link

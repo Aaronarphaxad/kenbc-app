@@ -369,7 +369,7 @@ function Ledger() {
             Opening, plus balances brought forward and receipts, less levies,
             plus or minus adjustments, equals closing.
           </p>
-          <div className="overflow-hidden rounded-lg border bg-card">
+          <div className="overflow-hidden rounded-xs border bg-card">
             <Table>
               <TableHeader className="bg-muted/50">
                 <TableRow>

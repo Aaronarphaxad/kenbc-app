@@ -42,7 +42,7 @@ export default function RequestsPage() {
       </PageHeader>
 
       {cases.length ? (
-        <ul className="flex flex-col divide-y rounded-xl border bg-card">
+        <ul className="flex flex-col divide-y rounded-xs border bg-card">
           {cases.map((item) => (
             <li key={item.id}>
               <Link

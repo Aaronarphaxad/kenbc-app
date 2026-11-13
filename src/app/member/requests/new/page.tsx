@@ -176,7 +176,7 @@ export default function NewRequestPage() {
                   can also bring these to the treasurer later.
                 </FieldDescription>
               </Field>
-              <p className="rounded-lg border bg-muted/40 p-3 text-sm text-muted-foreground">
+              <p className="rounded-xs border bg-muted/40 p-3 text-sm text-muted-foreground">
                 If the committee approves, every active member is levied{" "}
                 {formatCad(rules.levy)} and the total, about{" "}
                 {formatCad(payout)} today, is paid to you.

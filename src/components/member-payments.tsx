@@ -53,7 +53,7 @@ export function MemberPayments({ payments }: { payments: Payment[] }) {
             </div>
           ) : null}
           {payment.status === "rejected" && payment.reason ? (
-            <p className="rounded-lg border border-destructive/30 bg-destructive/5 p-3 text-sm">
+            <p className="rounded-xs border border-destructive/30 bg-destructive/5 p-3 text-sm">
               {payment.reason}
             </p>
           ) : null}

@@ -253,7 +253,7 @@ function Review({
               ) : null}
             </dl>
             {payment.reason ? (
-              <p className="rounded-lg border bg-muted/40 p-3 text-sm">
+              <p className="rounded-xs border bg-muted/40 p-3 text-sm">
                 {payment.reason}
               </p>
             ) : null}

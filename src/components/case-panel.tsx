@@ -209,7 +209,7 @@ function ActionBox({
   children: React.ReactNode
 }) {
   return (
-    <section className="flex flex-col gap-3 rounded-lg border bg-muted/40 p-4">
+    <section className="flex flex-col gap-3 rounded-xs border bg-muted/40 p-4">
       <h3 className="text-sm font-medium">{title}</h3>
       {children}
     </section>

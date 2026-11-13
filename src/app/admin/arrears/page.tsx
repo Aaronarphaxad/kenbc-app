@@ -258,7 +258,7 @@ function Arrears() {
                 )
               }
               className={cn(
-                "flex flex-col gap-1 rounded-xl border bg-card p-4 text-left outline-none hover:bg-muted/50 focus-visible:ring-3 focus-visible:ring-ring/50",
+                "flex flex-col gap-1 rounded-xs border bg-card p-4 text-left outline-none hover:bg-muted/50 focus-visible:ring-3 focus-visible:ring-ring/50",
                 pressed && "border-primary/40 bg-primary/5 hover:bg-primary/5"
               )}
             >
